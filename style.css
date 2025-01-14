@@ -14,7 +14,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--text-color);
     transition: all background-color 0.5s ease;
-
+    transition: all 0.5s ease-in-out;
   }
 
 .menu-lateral {
@@ -122,6 +122,7 @@ body{
     color: var(--text-secondary-color);
     background-color: var(--text-color);
     transition: all background-color 0.5s ease;
+    transition: all 0.5s ease-in-out;
 
 }
 
@@ -130,6 +131,7 @@ body{
     margin-left: 380px;
     background-color: var(--background-color);
     color: var(--text-color);
+    
 }
 
 .background {
